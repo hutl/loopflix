@@ -1,0 +1,136 @@
+body {
+  background-color: #221F1F;
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar {
+  background-color: #B81D24;
+
+}
+
+.logo {
+  transform: translateX(-50%);
+  left: 50%;
+  top: 5px;
+  position: absolute;
+
+}
+
+@media (min-width:992px) {
+  .logo {
+    top: 10px;
+  }
+}
+
+@media (max-width:992px) {
+  .nav-item {
+    display: flex;
+    justify-content: space-around;
+
+  }
+}
+
+.amazon {
+  padding-top: 5px;
+}
+
+.search {
+  padding-top: 3px;
+}
+
+.hbo {
+  padding-top: 2px;
+}
+
+.btn {
+  margin-right: 5px
+}
+
+.carousel-inner {
+  margin-top: 20px;
+
+}
+
+@media (max-width:576px) {
+  .carousel-inner {
+    margin-bottom: 15px;
+  }
+
+}
+
+.carousel-inner img {
+  display: block;
+  max-width: 100%;
+  min-height: 200px;
+  min-width: 50%;
+  border-radius: 15px;
+
+}
+
+@media (min-width:768px) {
+  .carousel-inner img {
+    height: 500px;
+  }
+
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width:768px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+}
+
+footer {
+  background-color: #B81D24;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 15px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.texto {
+  color: white;
+}
+
+.Filmes {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.form-group {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: white;
+  font-size: 40px;
+  font-style: bold;
+}
+
+#sobre {
+  text-decoration: none;
+  color: white;
+}
+
+#sobre:hover {
+  color: blue;
+}
